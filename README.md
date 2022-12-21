@@ -49,6 +49,8 @@ Publish the assets for css and js files
 php artisan vendor:publish --provider="Ilmedova\Chattle\ChatServiceProvider"
 ```
 
+Configure your .env and the laravel-websockets package by beyondcode. Read the documentation in this <a href"https://beyondco.de/docs/laravel-websockets">link</a>
+
 Run the migrations in order to setup the required tables on the database.
 
 ```bash
