@@ -22,9 +22,6 @@ This project will continue to grow and will be maintained. Your support is highl
 - Laravel 9 or higher
 - PHP 8.1 or higher
 
-## Branches
-- currently the project has only master branch for v1
-
 ## <a name="installation"></a> Installation
 
 Default installation is via [Composer](https://getcomposer.org/).
