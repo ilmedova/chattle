@@ -43,6 +43,12 @@ The service provider will automatically get registered. Or you could add the Ser
 ]
 ```
 
+Publish the assets for css and js files
+
+```bash
+php artisan vendor:publish --provider="Ilmedova\Chattle\ChatServiceProvider"
+```
+
 Run the migrations in order to setup the required tables on the database.
 
 ```bash
