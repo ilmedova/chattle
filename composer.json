@@ -1,0 +1,46 @@
+{
+    "name": "mahri/chattle",
+    "description": "This is a laravel library package for simple realization of customer support chatting",
+    "type": "library",
+    "homepage": "https://github.com/ilmedova/chattle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mahri ilmedova",
+            "email": "ilmedovamahri@gmail.com",
+            "role": "Creator & Maintainer",
+            "homepage": "https://github.com/ilmedova"
+        }
+    ],
+    "keywords": [
+        "laravel support",
+        "laravel chat",
+        "customer support",
+        "ticketing system",
+        "laravel ticket",
+        "chattle",
+        "mahri",
+        "websockets chat",
+        "support chat",
+        "admin chat",
+        "laravel websockets",
+        "chat",
+        "customer chat"
+    ],
+    "require": {
+        "beyondcode/laravel-websockets": "^1.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mahri\\Chattle\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mahri\\Chattle\\ChatServiceProvider"
+            ]
+        }
+    }
+}
