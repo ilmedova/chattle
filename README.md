@@ -5,11 +5,17 @@ This project will continue to grow and will be maintained. Your support is highl
 <a href="https://www.buymeacoffee.com/kerimdeveloper" target="_blank"><img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="55px" width= "200px"></a>
 
 ## Table of Contents
-1. [Requirements](#requirements)
-2. [Installation](#installation)
-3. [ToDo for next versions](#todo)
+1. [Features](#features)
+2. [Requirements](#requirements)
+3. [Installation](#installation)
+4. [What's next?](#todo)
 4. [License](#license)
 
+## <a name="features"></a> Features 🤩
+
+- Customer support chatbox in every single page of your web app
+- Admin panel for chatting with customers (available at: http://your-domain/chat-admin)
+- Self-hosted pusher replacement by beyondecode laravel websockets
 
 ## <a name="requirements"></a> Requirements
 
@@ -48,6 +54,13 @@ Include the customer support chatbox on your layout blade file's body section
 ```php
 @include('chattle::chat')
 ```
+
+## <a name="todo"></a> What's next 🚀
+
+- Realtime typing effect in chatboxes for users to let know that user or admin is typing
+- Marking messages as read when they are read by user or admin
+- Middleware and chat-admin roles control
+- Multiple color themes configured in configs
 
 ## <a name="license"></a> License
 
