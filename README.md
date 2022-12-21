@@ -65,6 +65,7 @@ Configure the following in your .env
 
 `PUSHER_APP_CLUSTER=mt1`
 
+If you want to change the pusher app key and secret make sure that you change them not only in .env file, but also in /public/js/chattle_customer.js and /public/js/chattle_admin.js - where the pusher instance is created
 
 Run the migrations in order to setup the required tables on the database.
 
