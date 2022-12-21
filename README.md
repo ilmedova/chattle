@@ -52,16 +52,15 @@ php artisan vendor:publish --provider="Ilmedova\Chattle\ChatServiceProvider"
 
 Configure the following in your .env
 
-`
-BROADCAST_DRIVER=pusher
-PUSHER_APP_ID=qwerty12345
-PUSHER_APP_KEY=qwerty12345
-PUSHER_APP_SECRET=qwerty12345
-PUSHER_HOST=127.0.0.1
-PUSHER_PORT=6001
-PUSHER_SCHEME=http
-PUSHER_APP_CLUSTER=mt1
-`
+`BROADCAST_DRIVER=pusher`
+`PUSHER_APP_ID=qwerty12345`
+`PUSHER_APP_KEY=qwerty12345`
+`PUSHER_APP_SECRET=qwerty12345`
+`PUSHER_HOST=127.0.0.1`
+`PUSHER_PORT=6001`
+`PUSHER_SCHEME=http`
+`PUSHER_APP_CLUSTER=mt1`
+
 
 Run the migrations in order to setup the required tables on the database.
 
