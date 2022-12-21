@@ -15,7 +15,7 @@ This project will continue to grow and will be maintained. Your support is highl
 
 - Customer support chatbox in every single page of your web app
 - Admin panel for chatting with customers (available at: http://your-domain/chat-admin)
-- Self-hosted pusher replacement by beyondecode laravel websockets
+- Self-hosted pusher replacement by beyondcode laravel websockets
 
 ## <a name="requirements"></a> Requirements
 
