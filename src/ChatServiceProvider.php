@@ -20,6 +20,6 @@ class ChatServiceProvider extends ServiceProvider
 
     public function register()
     {
-        include_once __DIR__.'/helpers.php';
+        
     }
 }
