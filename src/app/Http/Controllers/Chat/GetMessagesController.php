@@ -1,11 +1,11 @@
 <?php
 
-namespace Mahri\Chattle\app\Http\Controllers\Chat;
+namespace Ilmedova\Chattle\app\Http\Controllers\Chat;
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
-use Mahri\Chattle\app\Events\ChatUpdate;
-use Mahri\Chattle\app\Models\Chat;
-use Mahri\Chattle\app\Models\Message;
+use Ilmedova\Chattle\app\Events\ChatUpdate;
+use Ilmedova\Chattle\app\Models\Chat;
+use Ilmedova\Chattle\app\Models\Message;
 
 class GetMessagesController extends Controller
 {

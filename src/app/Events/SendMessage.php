@@ -1,6 +1,6 @@
 <?php
 
-namespace Mahri\Chattle\app\Events;
+namespace Ilmedova\Chattle\app\Events;
 
 use Domain\Users\Models\User;
 use Illuminate\Queue\SerializesModels;

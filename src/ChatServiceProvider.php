@@ -1,5 +1,5 @@
 <?php
-namespace Mahri\Chattle;
+namespace Ilmedova\Chattle;
 
 use Illuminate\Support\ServiceProvider;
 

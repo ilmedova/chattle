@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Mahri\Chattle\app\Http\Controllers\Chat\AdminController;
-use Mahri\Chattle\app\Http\Controllers\Chat\CreateController;
-use Mahri\Chattle\app\Http\Controllers\Chat\GetMessagesController;
-use Mahri\Chattle\app\Http\Controllers\Chat\PostMessageController;
-use Mahri\Chattle\app\Http\Controllers\Chat\GetChatsController;
+use Ilmedova\Chattle\app\Http\Controllers\Chat\AdminController;
+use Ilmedova\Chattle\app\Http\Controllers\Chat\CreateController;
+use Ilmedova\Chattle\app\Http\Controllers\Chat\GetMessagesController;
+use Ilmedova\Chattle\app\Http\Controllers\Chat\PostMessageController;
+use Ilmedova\Chattle\app\Http\Controllers\Chat\GetChatsController;
 
 Route::prefix('chattle')->group(function () {
     Route::view('chat', 'chattle::chat');

@@ -1,9 +1,9 @@
 <?php
 
-namespace Mahri\Chattle\app\Http\Controllers\Chat;
+namespace Ilmedova\Chattle\app\Http\Controllers\Chat;
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
-use Mahri\Chattle\app\Models\Chat;
+use Ilmedova\Chattle\app\Models\Chat;
 
 class CreateController extends Controller
 {

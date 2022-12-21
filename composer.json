@@ -1,5 +1,5 @@
 {
-    "name": "mahri/chattle",
+    "name": "ilmedova/chattle",
     "description": "This is a laravel library package for simple realization of customer support chatting",
     "type": "library",
     "homepage": "https://github.com/ilmedova/chattle",
@@ -28,18 +28,19 @@
         "customer chat"
     ],
     "require": {
+        "laravel/framework": "^9.0",
         "beyondcode/laravel-websockets": "^1.13"
     },
     "autoload": {
         "psr-4": {
-            "Mahri\\Chattle\\": "src"
+            "Ilmedova\\Chattle\\": "src"
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "Mahri\\Chattle\\ChatServiceProvider"
+                "Ilmedova\\Chattle\\ChatServiceProvider"
             ]
         }
     }
