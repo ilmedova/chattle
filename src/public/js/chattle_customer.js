@@ -59,7 +59,7 @@ $(document).ready(function(){
 
                         //listen to pusher
                         Pusher.logToConsole = true;
-                        const pusher = new Pusher('zehinliQazwsx12', {
+                        const pusher = new Pusher('qwerty12345', {
                             wsHost: '127.0.0.1',
                             wsPort: 6001,
                             wssPort: 6001,
@@ -129,7 +129,7 @@ $(document).ready(function(){
         });
         //listen to pusher channel
         Pusher.logToConsole = true;
-        const pusher = new Pusher('zehinliQazwsx12', {
+        const pusher = new Pusher('qwerty12345', {
             wsHost: '127.0.0.1',
             wsPort: 6001,
             wssPort: 6001,

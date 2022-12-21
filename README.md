@@ -14,7 +14,7 @@ This project will continue to grow and will be maintained. Your support is highl
 ## <a name="features"></a> Features 🤩
 
 - Customer support chatbox in every single page of your web app
-- Admin panel for chatting with customers (available at: http://your-domain/chat-admin)
+- Admin panel for chatting with customers (available at: http://your-domain/chattle/chat-admin)
 - Self-hosted pusher replacement by beyondcode laravel websockets
 
 ## <a name="requirements"></a> Requirements
@@ -49,7 +49,17 @@ Publish the assets for css and js files
 php artisan vendor:publish --provider="Ilmedova\Chattle\ChatServiceProvider"
 ```
 
-Configure your .env and the laravel-websockets package by beyondcode. Read the documentation in this <a href"https://beyondco.de/docs/laravel-websockets">link</a>
+
+Configure the following in your .env
+
+`BROADCAST_DRIVER=pusher
+PUSHER_APP_ID=qwerty12345
+PUSHER_APP_KEY=qwerty12345
+PUSHER_APP_SECRET=qwerty12345
+PUSHER_HOST=127.0.0.1
+PUSHER_PORT=6001
+PUSHER_SCHEME=http
+PUSHER_APP_CLUSTER=mt1`
 
 Run the migrations in order to setup the required tables on the database.
 
