@@ -1,4 +1,4 @@
-An implementation of an Customer Support Chat System in Laravel.
+An implementation of a Customer Support Chat System in Laravel.
 
 This project will continue to grow and will be maintained. Your support is highly appreciated and will motivate the author to improve the package. If you've found this library helpful and want to support the author, please, consider any donation by clicking the button below or following the link to [buymeacoffee.com](https://www.buymeacoffee.com/kerimdeveloper). 
 
