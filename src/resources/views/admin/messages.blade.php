@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Chattle | Admin</title>
     <link rel="stylesheet" href="{{ asset('css/chattle_admin.css') }}">
 </head>
 <body data-theme="indigo">
@@ -23,13 +23,13 @@
                 </div>
                 <h1>Customer Support Chat</h1>
             </div>
-            <div class="app-profile-box">
+            {{-- <div class="app-profile-box">
                 <img style="margin: 15px 0px" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
                     alt="profile">
                 <div class="app-profile-box-name">
                     Hello Mahri!
                 </div>
-            </div>
+            </div> --}}
             <div class="chat-list-wrapper">
                 <ul id="chat-list" class="chat-list">
                     @foreach ($chats as $chat)

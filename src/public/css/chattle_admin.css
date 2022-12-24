@@ -46,8 +46,8 @@ body {
     --toggle-bg-off: #6895a3;
     --message-box-2: #477eff;
     --message-box-1: #576c99;
-    --logo-path-1: #477eff;
-    --logo-path-2: #576c99;
+    --logo-path-1: #6895a3;
+    --logo-path-2: #00ba9d;
     --box-shadow: rgba(18, 23, 45, .6) 0px 8px 24px;
     --scrollbar-thumb: linear-gradient(to bottom, rgba(43, 88, 118, .8), rgba(78, 67, 118, .8));
 }
