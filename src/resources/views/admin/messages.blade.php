@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chattle | Admin</title>
-    <link rel="stylesheet" href="{{ asset('css/chattle_admin.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/chattle_admin.min.css') }}">
 </head>
 <body data-theme="indigo">
     <div class="app-container">
