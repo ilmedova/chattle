@@ -1,4 +1,3 @@
-//Pusher.logToConsole = true;
 const pusher = new Pusher('qwerty12345', {
     wsHost: '127.0.0.1',
     wsPort: 6001,
@@ -42,9 +41,7 @@ function fetchData(elem){
     $('#chat_id').val($(elem).attr('id'));
     $(elem).addClass('active');
 
-    //listen to pusher channel
     if(prevchat_id != 0){
-        //pusher.unsubscribe('chat' + prevchat_id);
         channel.unbind('my-messages');
         pusher.unsubscribe(prevchat_id);
         console.log(pusher.allChannels());
@@ -82,13 +79,11 @@ function loadMore(page) {
         }
     });
 }
-
 var currPage = 1;
 $("#loading").on('click', function() {
     console.log('clicked');
     loadMore(++currPage);
 });
-
 $("#messageForm").on('submit', function (e) {
     e.preventDefault();
     $.ajax({

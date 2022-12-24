@@ -1,3 +1,12 @@
+Pusher.logToConsole = true;
+const pusher = new Pusher('qwerty12345', {
+    wsHost: '127.0.0.1',
+    wsPort: 6001,
+    wssPort: 6001,
+    disableStats: true,
+    enabledTransports: ['ws', 'wss'],
+    cluster: 'mt1',
+});
 $("#messageForm").on('submit', function (e) {
     e.preventDefault();
     $.ajax({
@@ -25,12 +34,10 @@ $("#messageForm").on('submit', function (e) {
 $(document).ready(function(){
     var ch = $.cookie("ch");
     if(ch == null){
-
         $('.close-button').on('click', function(){
             $('.chat-container').css("display","none");
             $('.chat-button').css("display","block");
         });
-
         $('.chat-button').on('click', function(){
             if($.cookie("ch") == null){
                 $('#messagesContainer').css("display","none");
@@ -56,17 +63,6 @@ $(document).ready(function(){
                         console.log(response);
                         $.cookie("ch", response.id, { expires : 1 });
                         $.cookie("nm", response.name, { expires : 1 });
-
-                        //listen to pusher
-                        Pusher.logToConsole = true;
-                        const pusher = new Pusher('qwerty12345', {
-                            wsHost: '127.0.0.1',
-                            wsPort: 6001,
-                            wssPort: 6001,
-                            disableStats: true,
-                            enabledTransports: ['ws', 'wss'],
-                            cluster: 'mt1',
-                        });
                         var channel = pusher.subscribe('chat'+response.id);
                         channel.bind('my-messages', function (response) {
                             console.log(response);
@@ -80,8 +76,6 @@ $(document).ready(function(){
                                 scrollTop: $('#messagesContainer').prop("scrollHeight")
                             }, 250);
                         });
-
-                        //display messages
                         $('#chatContactContainer').css("display","none");
                         $('#messagesContainer').css("display","block");
                         $('#inputContainer').css("display","block");
@@ -127,16 +121,6 @@ $(document).ready(function(){
                 }, 250);
             }
         });
-        //listen to pusher channel
-        Pusher.logToConsole = true;
-        const pusher = new Pusher('qwerty12345', {
-            wsHost: '127.0.0.1',
-            wsPort: 6001,
-            wssPort: 6001,
-            disableStats: true,
-            enabledTransports: ['ws', 'wss'],
-            cluster: 'mt1',
-        });
         var channel = pusher.subscribe('chat'+ $.cookie("ch"));
         channel.bind('my-messages', function (response) {
             console.log(response);
@@ -150,12 +134,10 @@ $(document).ready(function(){
                 scrollTop: $('#messagesContainer').prop("scrollHeight")
             }, 250);
         });
-
         $('.close-button').on('click', function(){
             $('.chat-container').css("display","none");
             $('.chat-button').css("display","block");
         });
-
         $('.chat-button').on('click', function(){
             $('#chatContactContainer').css("display","none");
             $('#messagesContainer').css("display","block");
