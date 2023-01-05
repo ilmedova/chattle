@@ -1,3 +1,5 @@
+<img src="preview.png" width="100%">
+
 An implementation of a Customer Support Chat System in Laravel.
 
 This project will continue to grow and will be maintained. Your support is highly appreciated and will motivate the author to improve the package. If you've found this library helpful and want to support the author, please, consider any donation by clicking the button below or following the link to [buymeacoffee.com](https://www.buymeacoffee.com/ilmedova). 
@@ -88,6 +90,10 @@ php artisan websockets:serve
 ```bash
 php artisan serve
 ```
+
+Admin dashboard for chatting with customers available at http://your-domain/chattle/chat-admin 
+
+<img width="100%" src="dashboard.png">
 
 ## <a name="todo"></a> What's next 🚀
 
