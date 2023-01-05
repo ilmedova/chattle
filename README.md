@@ -79,6 +79,16 @@ Include the customer support chatbox on your layout blade file's body section
 @include('chattle::chat')
 ```
 
+Now serve your websockets and laravel app in different comman lines
+
+```bash
+php artisan websockets:serve
+```
+
+```bash
+php artisan serve
+```
+
 ## <a name="todo"></a> What's next 🚀
 
 - Realtime typing effect in chatboxes for users to let know that user or admin is typing
