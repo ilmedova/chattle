@@ -1,4 +1,5 @@
 <img src="preview.png" width="100%">
+<img width="100%" src="dashboard.png">
 
 An implementation of a Customer Support Chat System in Laravel.
 
@@ -92,8 +93,6 @@ php artisan serve
 ```
 
 Admin dashboard for chatting with customers available at http://your-domain/chattle/chat-admin 
-
-<img width="100%" src="dashboard.png">
 
 ## <a name="todo"></a> What's next 🚀
 
