@@ -30,7 +30,7 @@ This project will continue to grow and will be maintained. Your support is highl
 Default installation is via [Composer](https://getcomposer.org/).
 
 ```bash
-composer require ilmedova/chattle
+composer require ilmedova/chattle --with-all-dependencies
 ```
 
 The service provider will automatically get registered. Or you could add the Service Provider manually to your
