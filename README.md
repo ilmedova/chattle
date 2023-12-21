@@ -22,7 +22,7 @@ This project will continue to grow and will be maintained. Your support is highl
 
 ## <a name="requirements"></a> Requirements
 
-- Laravel 9 or higher
+- Laravel 10
 - PHP 8.1 or higher
 
 ## <a name="installation"></a> Installation
