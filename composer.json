@@ -28,7 +28,7 @@
         "customer chat"
     ],
     "require": {
-        "laravel/framework": "^10.0",
+        "laravel/framework": "^11.0",
         "beyondcode/laravel-websockets": "^1.13"
     },
     "autoload": {
