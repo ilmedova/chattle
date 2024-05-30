@@ -6,7 +6,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "mahri ilmedova",
+            "name": "Mahri Ilmedova",
             "email": "ilmedovamahri@gmail.com",
             "role": "Creator & Maintainer",
             "homepage": "https://github.com/ilmedova"
@@ -29,7 +29,7 @@
     ],
     "require": {
         "laravel/framework": "^11.0",
-        "beyondcode/laravel-websockets": "^1.13"
+        "beyondcode/laravel-websockets": "^1.14"
     },
     "autoload": {
         "psr-4": {
