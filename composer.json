@@ -28,8 +28,8 @@
         "customer chat"
     ],
     "require": {
-        "laravel/framework": "^11.0",
-        "beyondcode/laravel-websockets": "^1.14"
+        "laravel/framework": "^9.0|^10.0|^11.0",
+        "beyondcode/laravel-websockets": "^1.13|^1.14"
     },
     "autoload": {
         "psr-4": {
